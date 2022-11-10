@@ -1,10 +1,10 @@
 import React from "react"
+import { Counter } from "./pages"
+import { Counter as CounterState} from './store'
 
 const App = () =>{
   return (
-    <h1>
-        Hello World
-    </h1>
+    <Counter />
   )
 }
 
